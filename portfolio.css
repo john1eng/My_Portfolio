@@ -9,7 +9,7 @@ body{
 
 /* INTRO PICTURE */
 #intro{
-  background: #151515 url(Portfolio/Pictures/mist-forest.jpg) no-repeat center;
+  background: #151515 url(portfolios/Pictures/mist-forest.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size:cover;
