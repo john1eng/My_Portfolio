@@ -1,0 +1,332 @@
+html{
+  background-color:#2A2428;
+}
+body{
+  text-align:center;
+  color: #E2E5EC;
+  margin-bottom:0;
+}
+
+/* INTRO PICTURE */
+#intro{
+  background: #151515 url(Portfolio/Pictures/mist-forest.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size:cover;
+  background-attachment:fixed;
+  width: 100%;
+  height: 100%;
+  height:100vh;
+  /* width:100vw; */
+  margin:0;
+  top:0;
+  bottom:0;
+  position:relative;
+  display:table;
+  }
+
+  #intro-content{
+    height:600px;
+    position:relative;
+    min-height:100vh;
+    display:table-cell;
+    vertical-align:middle;
+  }
+  /* #introMsg{
+    -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(30deg, 0deg);
+    -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(30deg, 0deg);
+    -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(30deg, 0deg);
+    -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(30deg, 0deg);
+    transform: scale(1) rotate(0deg) translate(0px, 0px) skew(30deg, 0deg);
+  } */
+
+/* ABOUT ME SECTION */
+#about{
+  background-color:#2A2428;
+  height:700px;
+  min-height:100vh;
+}
+
+#aboutMePhoto{
+  height:400px;
+  opacity:.6;
+  position:relative;
+  left:20%;
+  box-shadow:6px 6px 10px  hsl(105, 25%, 34%)
+}
+#aboutMeIntro{
+  display:inline-block;
+  text-align:justify;
+  width:350px;
+  line-height: 2.3;
+   position:relative;
+  right:20%;
+  padding-left:10px;
+  padding-right:10px;
+}
+/* #2A2428 */
+#resume{
+  border:1px solid #E2E5EC;
+  border-radius:9px;
+  padding:5px;
+}
+#resume:hover{
+  background-color:#2C4026;
+}
+
+/* ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  display: inline;
+  padding-right:10px;
+} */
+
+/* PORFOLIO */
+#portfolio{
+  background-color:#46653c;
+  padding-bottom:100px;
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+  background: rgba(0,0,0,0);
+  border-radius:25px 25px 0px 0px;
+  -webkit transition: background .5s ease-in-out;
+  transition: background .5s ease-in-out;
+}
+
+.overlay:hover{
+  background:rgba(0,0,0,.8);
+}
+
+.port-image{
+  width:450px;
+  height:250px;
+  background-size:cover;
+  position:relative;
+  left:85px;
+  background-image: no-repeat center;
+  border-radius: 25px 25px 0px 0px;
+  display:table;
+  margin-bottom:0px;
+  /* border: 1px solid #2c4026; */
+}
+
+.row{
+  margin-bottom:15px;
+}
+a, a:link, a:visited, a:focus, a:hover, a:active{
+  text-decoration:none;
+  color:#E2E5EC;
+}
+
+.overdiv{
+  width:100%;
+  height:100%;
+}
+
+h4{
+  opacity:0;
+  width:100%;
+  height:100%;
+  color:#E2E5EC;
+  transition: opacity .5s ease-in-out;
+
+}
+h2:hover{
+  opacity:1;
+}
+.morInfo{
+  margin-left: 84px;
+  width:450px;
+  height:25px;
+  /* border: .5px solid #2c4026; */
+  border-radius: 0px 0px 25px 25px;
+  display:block;
+  background-color:#2c4026;
+}
+
+.morInfoSpan{
+  padding-right:90px;
+  border-right:1px solid black;
+  cursor: pointer;
+}
+
+
+/* CONTACT */
+
+#contact{
+  background-color:#2A2428;
+  background-size:cover;
+/*  background-attachment: fixed;*/
+  background-repeat: no-repeat;
+  background-position: center;
+	height:100vh;
+	width:100vw;
+  margin:0;
+  top:0;
+  bottom:0;
+  /* width: 100%;
+  height: 100%; */
+}
+
+
+table{
+  border: 0px solid;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width:450px;
+  border-collapse:separate;
+  background: rgba(0,0,0,.3);
+}
+form{
+  padding-right:30px;
+  padding-top:5px;
+  padding-bottom:5px;
+
+}
+
+label{
+  width:80px;
+  text-align: left;
+}
+input{
+  width:300px;
+  border: 2px black;
+  border-radius: 10px;
+  padding-left:9px;
+}
+#contactText{
+  height:200px;
+  width:300px;
+  border: 2px black;
+  border-radius: 10px;
+  padding-left:9px;
+  vertical-align: top;
+}
+#submitButton{
+  font-weight: bold;
+  font-size: 15px;
+  border-radius:10px;
+  margin-left:320px;
+  margin-top:8px;
+  border:0;
+}
+#submitButton:hover{
+  background:rgba(44, 64, 38, 1)
+}
+button, input, optgroup, select, textarea{
+  background-color: rgba(0, 0, 0, .3);
+  color: #E2E5EC;
+  border-radius:5px;
+}
+
+/* FOOTER */
+#footer {
+  background-color: #2A2428;
+  margin:0;
+}
+/* NAV BUTTON */
+#navButton{
+  position: fixed;
+  top:20px;
+  right:20px;
+  background:rgba(44, 64, 38, .5)
+  border-radius:5px;
+}
+
+#navb{
+  border:0px;
+  font-size: 20px;
+}
+
+ a.c{
+  display:none;
+  border:1px solid black;
+  margin:0px;
+  width:100px;
+  background: rgba(0,0,0,.5);
+  z-index:0;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  font-size:20px;
+  }
+
+/* SOCIAL MEDIA BUTTONS */
+.githubSpan{
+  padding-left:50px;
+}
+.social-icons {
+  text-align: center;
+  }
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:50px;
+  height:50px;
+  margin-right: 20px;
+}
+
+/* TITLES THAT ACT LIKE A BUTTON EG. CONTACT, ABOUT, PORTFOLIO */
+#moreaboutme{
+  border:2px double #E2E5EC;
+  border-radius:10px;
+  font-size:20px;
+  padding:9px;
+}
+#moreaboutme:hover{
+  border:2px double #2C4026;
+}
+#scrollP{
+  border:2px double #E2E5EC;
+  border-radius:10px;
+  padding:7px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+}
+#scrollP:hover{
+  border:2px double #2C4026;
+}
+#aboutTitle{
+  border:2px double #E2E5EC;
+  border-radius:10px;
+  padding:7px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+}
+#aboutTitle:hover{
+  border:2px double #2C4026;
+}
+
+#spanContact{
+background: rgba(0,0,0,.3);
+border-radius: 10px;
+padding-left:15px;
+padding-right:15px;
+appearance:button;
+cursor: pointer;
+}
+#spanContact:hover{
+  /* border:2px double #2C4026; */
+  background: rgba(0,0,0,.5);
+  border:1px solid black;
+}
+#socialdiv{
+  background-color:#2A2428
+}
