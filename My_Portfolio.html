@@ -3,10 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>John's Profolio</title>
+    <title>John Eng's Profolio</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+    <script src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="portfolio.css">
     <script src="portfolio.js"></script>
 
@@ -15,7 +18,7 @@
                             <!--Heading-->
     <section id="intro">
       <div id="intro-content">
-        <h1 id="introMsg" style="font-size:60px;font-style:italic"> &nbsp</h1><br>
+        <h1 id="introMsg" style="font-size:70px;font-style:italic"> &nbsp</h1><br>
         <h2 style="font-size:50px"> I'm John Eng! <h2>
         <h2>| Full Stack Developer | Programmer |</h2><br><br>
         <a id="moreaboutme" href="#about" ><span>More About Me</span></a>
@@ -25,126 +28,180 @@
     <section id="about">
       <div>
         <br><br>
-        <h2> <span id="aboutTitle">About Me</span></h2><br><br><br>
+        <div style="text-align:center"><h2> <span id="aboutTitle">About Me</span></h2><br><br></div>
         <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6">
+          <div class="d-flex flex-row flex-wrap justify-content-center  ">
+            <div class="p-2">
               <img id="aboutMePhoto" src="portfolios/Pictures/profile.jpg">
             </div>
 
-            <div class="col-md-6">
-              <p id="aboutMeIntro"> Hello, My name is John Eng. I am passionate in coding because it's about solving problems, being creative, constantly learning and having fun.
-                Currently, I am enrolled in 'TechWorks' at Queensborough Community College to improve my skills and to work on a change career.  I always challenge myself to add features beyond
-                the assignment requirements. I want an opportunity where I can use my talents in website/software designing and development.</p><br>
-                <a id="resume" target="_blank" href="portfolios/John_Eng's-Resume.pdf"> My Resume </a>
-              </div>
+            <div class="p-2">
+              <p id="aboutMeIntro"> Hello, My name is John Eng. I am passionate in coding because it's about solving problems, being creative, constantly learning and having fun <span id="italHover">(see what happens when the title in each page is clicked)</span>.
+                Currently, I am enrolled in 'TechWorks' at Queensborough Community College for a change career.  I always challenge myself to exceed the expectation for my projects. I need an opportunity where I can apply my talents and experience in website and software design and development.</p><br>
+            </div>
           </div>
         </div>
 
     </section>
+    <section id="experience">
+      <div>
+        <br><br>
+        <div style="text-align:center"><h2> <span id="qualificationsTitle">Qualifications</span></h2><br><br><br></div>
+        <div class="container-fluid">
+          <div class="d-flex flex-row justify-content-center ">
+            <div class="d-flex flex-column p-2 experiencediv justify-content-start">
+              <div class="p-2 qualificationsTitleSub">Skills
+              </div>
+              <div id="skillList" style="margin:auto">
+                <ul style="padding:0px">
+                  <li>API</li>
+                  <li>Android Studio</li>
+                  <li>BootStrap</li>
+                  <li>CSS (strong)</li>
+                  <li>DreamWeaver</li>
+                  <li>Github</li>
+                  <li>Google DevTool (strong)</li>
+                  <li>HTML (strong)</li>
+                  <li>Java</li>
+                  <li>JavaScript (strong)</li>
+                  <li>JQuery</li>
+                  <li>Microsoft Office</li>
+                  <li>PhotoShop</li>
+                  <li>Python</li>
+                  <li>React</li>
+                </ul>
+                <!--JavaScript, HTML, CSS, Bootstrap, Google DevTool, Github, API, Python, React, JQuery, Java, Microsoft App, DreamWeaver, Python-->
+              </div>
+            </div>
+          <div class="d-flex flex-column p-2 experiencediv justify-content-start">
+            <div class="p-2 qualificationsTitleSub">Education
+            </div>
+            <div class="p-2"><a id="defaultLink" target="_blank" href="http://www.qcc.cuny.edu/contEd/CUNY-TechWorks.html">CUNY TechWorks -<br>Software Development Program</a><br>January 2019 - Current<br>
+            Had taken these courses: Intro to Engineering and Technology, Web development and JavaScript<br>
+            </div>
+
+            <div class="p-2"><a id="defaultLink" target="_blank" href="https://revature.com/learn-to-code/">RevaturePro -<br>Online Development Programs</a><br>Gained knowledge and experiences in Java, html/css, Servlets
+            </div>
+
+            <div class="p-2"><a id="defaultLink" target="_blank" href="https://www.khanacademy.org/">Khan Academy - Online Courses</a><br>Completed the Intro to HTML/CSS: Making webspages
+            </div>
+          </div>
+          <div class="d-flex flex-column p-2 experiencediv last justify-content-start">
+            <div class="p-2 qualificationsTitleSub">Experience
+            </div>
+            <!-- <div class="p-2"><a id="defaultLink" target="_blank" href="https://www.codenewbie.org/podcast">CodeNewbie Podcast</a><br>Listen to inspirational professional programmer interviews
+            </div> -->
+            <div class="p-2"><b style="color:#C14953">Google Hackathon</b><br>April 19-20 2019<br>Work with a team of seven to explore the Google AIY to help students with disability in College
+            <br><br><br><br>
+            <div class="p-2" style="text-align:center">
+
+            <a id="resume" target="_blank" href="portfolios/John_Eng's-Resume.pdf"> My Resume </a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
                             <!--Porfolio-->
     <section id="portfolio">
+      <br><br>
+      <div style="text-align:center"><h2> <span id="scrollP">Portfolio</span></h2><br><br></div>
       <div class="container-fluid">
-        <br><br>
-        <h2> <span id="scrollP">Portfolio</span></h2><br><br>
-        <div class="row">
-          <div class="col-md-6">
-            <a href="https://john1eng.github.io/Wheel-of-Fortune/Wheel_of_fortune.html"
+        <div class="d-flex flex-wrap flex-row justify-content-around">
+          <div class="p-2" style="margin:auto"><a target="_blank" href="https://john1eng.github.io/restaurant_J/index.html"
+          class="port-image" style="background-image:url('portfolios/Restaurant.jpg');">
+          <div class ="overlay" id="overlay7">
+            <div class="overdiv" id="div7"><h4></h4></div>
+          </div>
+        </a>
+        <div class="morInfo">
+          <span id="morInfo_7" class="morInfoSpan"><a target= "_blank" href="https://john1eng.github.io/restaurant_J/index.html">Note</a></span> <a id="testicon7" target= "_blank" href="https://github.com/john1eng/restaurant_J"><span class="githubSpan">Github</span></a>
+        </div>
+      </div>
+            <div class="p-2" style="margin:auto"><a target="_blank" href="https://john1eng.github.io/Wheel-of-Fortune/Wheel_of_fortune.html"
             class="port-image" style="background-image:url('portfolios/Wheel-of-fortune.jpg');">
             <div class ="overlay" id="overlay1">
               <div class="overdiv" id="div1"><h4></h4></div>
             </div>
           </a>
-          <div class="morInfo" id="morInfo_1">
-            <span class="morInfoSpan"><a href="portfolios/Wheel-of-fortune/Wheel_of_fortune.html">Note</a></span> <a href="https://github.com/john1eng/Wheel-of-Fortune"><span class="githubSpan">Github</span></a>
+          <div class="morInfo">
+            <span id="morInfo_1" class="morInfoSpan"><a target= "_blank" href="https://john1eng.github.io/Wheel-of-Fortune/Wheel_of_fortune.html">Note</a></span> <a id="testicon1" target= "_blank" href="https://github.com/john1eng/Wheel-of-Fortune"><span class="githubSpan">Github</span></a>
           </div>
         </div>
-          <div class="col-md-6">
-            <a href="https://john1eng.github.io/Valid_CC/valid_CC.html"
+          <div class="p-2" style="margin:auto">
+            <a target="_blank" href="https://john1eng.github.io/Valid_CC/valid_CC.html"
             class="port-image" style="background-image:url('portfolios/Valid-CC.jpg');">
             <div class ="overlay" id="overlay2">
               <div class="overdiv" id="div2"><h4></h4></div>
             </div>
           </a>
-          <div class="morInfo" id="morInfo_2" style="margin-left:85px">
-            <span class="morInfoSpan"><a href="portfolios/Valid_CC/valid_CC.html">Note</a></span> <a href="https://github.com/john1eng/Valid_CC"><span class="githubSpan">Github</span></a>
+          <div class="morInfo">
+            <span id="morInfo_2" class="morInfoSpan"><a target= "_blank" href="https://john1eng.github.io/Valid_CC/valid_CC.html">Note</a></span> <a id="testicon2" target= "_blank" href="https://github.com/john1eng/Valid_CC"><span class="githubSpan">Github</span></a>
           </div>
-    </div>
-  </div>
-          <div class="row">
-            <div class="col-md-6">
-              <a href="https://john1eng.github.io/JQuery-Animation/JQuery-Animation.html"
+        </div>
+
+            <div class="p-2" style="margin:auto">
+              <a target="_blank" href="https://john1eng.github.io/JQuery-Animation/JQuery-Animation.html"
               class="port-image" style="background-image:url('portfolios/JQuery-Animation.jpg');">
               <div class ="overlay" id="overlay3">
                 <div class="overdiv" id="div3"><h4></h4></div>
               </div>
             </a>
-            <div class="morInfo" id="morInfo_3">
-              <span class="morInfoSpan"><a href="portfolios/JQuery-Animation/JQuery-Animation.html">Note</a></span> <a href="https://github.com/john1eng/JQuery-Animation"><span class="githubSpan">Github</span></a>
+            <div class="morInfo">
+              <span id="morInfo_3" class="morInfoSpan"><a target= "_blank" href="https://john1eng.github.io/JQuery-Animation/JQuery-Animation.html">Note</a></span> <a id="testicon3" target= "_blank" href="https://github.com/john1eng/JQuery-Animation"><span class="githubSpan">Github</span></a>
             </div>
           </div>
-            <div class="col-md-6">
-              <a href="https://john1eng.github.io/Cart-for-Party/Cart_to_Party.html"
+            <div class="p-2" style="margin:auto">
+              <a target="_blank" href="https://john1eng.github.io/Cart-for-Party/Cart_to_Party.html"
               class="port-image" style="background-image:url('portfolios/Cart-for-Party.jpg');">
               <div class ="overlay" id="overlay4">
                 <div class="overdiv" id="div4"><h4></h4></div>
               </div>
             </a>
-            <div class="morInfo" id="morInfo_4" style="margin-left:85px">
-              <span class="morInfoSpan"><a href="portfolios/Cart-for-Party/Cart_to_Party.html">Note</a></span> <a href="https://github.com/john1eng/Cart-for-Party"><span class="githubSpan">Github</span></a>
+            <div class="morInfo">
+              <span id="morInfo_4" class="morInfoSpan"><a target= "_blank" href="https://john1eng.github.io/Cart-for-Party/Cart_to_Party.html">Note</a></span> <a id="testicon4" target= "_blank" href="https://github.com/john1eng/Cart-for-Party"><span class="githubSpan">Github</span></a>
             </div>
       </div>
-    </div>
-        <div class="row">
-          <div class="col-md-6">
-            <a href="https://john1eng.github.io/Mid-term-Project/MidTermProj.html"
+
+          <div class="p-2" style="margin:auto">
+            <a target="_blank" href="https://john1eng.github.io/Mid-term-Project/MidTermProj.html"
               class="port-image" style="background-image:url('portfolios/Midterm-Project.jpg');">
               <div class ="overlay" id="overlay5">
                 <div class="overdiv" id="div5"><h4></h4></div>
               </div>
             </a>
-            <div class="morInfo" id="morInfo_5">
-              <span class="morInfoSpan"><a href="portfolios/Mid-term-Project/MidTermProj.html">Note</a></span> <a href="https://github.com/john1eng/Mid-term-Project"><span class="githubSpan">Github</span></a>
+            <div class="morInfo">
+              <span id="morInfo_5" class="morInfoSpan"><a target= "_blank" href="https://john1eng.github.io/Mid-term-Project/MidTermProj.html">Note</a></span> <a id="testicon5" target= "_blank" href="https://github.com/john1eng/Mid-term-Project"><span class="githubSpan">Github</span></a>
             </div>
       </div>
-          <div class="col-md-6">
-            <a href="https://john1eng.github.io/FortuneTeller/fortune.html"
+          <!-- <div class="p-2" style="margin:auto">
+            <a target="_blank" href="https://john1eng.github.io/FortuneTeller/fortune.html"
             class="port-image" style="background-image:url('portfolios/Fortune-Teller.jpg');">
             <div class ="overlay" id="overlay6">
               <div class="overdiv" id="div6"><h4></h4></div>
             </div>
           </a>
-          <div class="morInfo" id="morInfo_6" style="margin-left:85px">
-            <span class="morInfoSpan"><a href="portfolios/FortuneTeller/fortune.html">Note</a></span> <a href="https://github.com/john1eng/FortuneTeller"><span class="githubSpan">Github</span></a>
+          <div class="morInfo">
+            <span id="morInfo_6" class="morInfoSpan"><a target= "_blank" href="https://john1eng.github.io/FortuneTeller/fortune.html">Note</a></span> <a id="testicon6" target= "_blank" href="https://github.com/john1eng/FortuneTeller"><span class="githubSpan">Github</span></a>
           </div>
-    </div>
+    </div> -->
   </div>
-        <!-- <div class="row">
-          <div class="col-md-6">
-            <a href="portfolios/future_age.html"
-            class="port-image" style="background-image:url('portfolios/Future-Age.jpg');">
-              <div class ="overlay" id="overlay7">
-                <div class="overdiv" id="div7"><h4></h4></div>
-              </div>
-            </a>
-            <div class="morInfo" id="morInfo_7">
-              <span class="morInfoSpan">  <a href="portfolios/future_age.html">Note</a></span> <a href="https://github.com/john1eng/future_age"><span class="githubSpan7">Github</span></a>
-            </div>
-      </div> -->
+
     </div> <!--container closing-->
     </section>
                             <!--Contact-->
     <section id="contact">
         <br><br>
-        <h2><span id="spanContact">Contact</span></h2>
+        <div style="text-align:center"><h2><span id="spanContact">Contact Me</span></h2></div>
         <br><br><br>
         <table>
             <td>
-        <form>
-          <label>Name:</label><input type="text" id="contactName"><br>
-          <label>Email:</label><input type="text" id="contactEmail"><br>
-          <label>Message Board:</label><textarea cols="4" row="10" id="contactText"></textarea><br>
-          <button id="submitButton" type="button">Submit</button>
+        <form action="https://formspree.io/john1eng@hotmail.com" method="POST">
+          <label>Name:</label><input type="text" id="contactName" name="name"><br>
+          <label>Email:</label><input type="email" id="contactEmail"name="email"><br>
+          <label>Message Board:</label><textarea cols="4" row="10" id="contactText" name="message"></textarea><br>
+          <button type ="submit" id="submitButton" type="button">Submit</button>
         </form>
           </td>
       </table>
@@ -153,18 +210,19 @@
     <section id=footer>
       <br>
         <div id="socialdiv"><ul class="social-icons">
-            <li><a href="https://www.facebook.com/john.eng.739"><img src='portfolios/Pictures/Facebook.png'
+            <li><a target= "_blank" href="https://www.facebook.com/john.eng.739"><img src='portfolios/Pictures/Facebook.png'
                                                                 onmouseover="this.src='portfolios/Pictures/Facebook2.png';"
                                                                 onmouseout="this.src='portfolios/Pictures/Facebook.png';"></a></li>
-            <li><a href="https://www.linkedin.com/in/john1eng/"><img src='portfolios/Pictures/Linkedin.png'
+            <li><a target= "_blank" href="https://www.linkedin.com/in/john1eng/"><img src='portfolios/Pictures/Linkedin.png'
                                                                 onmouseover="this.src='portfolios/Pictures/Linkedin2.png';"
                                                                 onmouseout="this.src='portfolios/Pictures/Linkedin.png';"></a></li>
-            <li><a href="https://github.com/john1eng/"><img src='portfolios/Pictures/Github.png'
+            <li><a target= "_blank" href="https://github.com/john1eng/"><img src='portfolios/Pictures/Github.png'
                                                                 onmouseover="this.src='portfolios/Pictures/Github2.png';"
                                                                 onmouseout="this.src='portfolios/Pictures/Github.png';"></a></li>
           </ul>
         </div>
-        <p>John Eng's portfolio - copyright 2019</p>
+        <a href="credits.html">Credits to build this potfolio</a>
+        <p>Copyright 2019 Developed by John Eng</p>
 
 
 
@@ -172,9 +230,10 @@
     </section>
 
   <span id="navButton">
-  <button id="navb" type="submit" >Navi</button>
+  <button id="navb" type="submit" ><img src="portfolios/Pictures/down-chevron.png" style="height:30px"></button>
     <a href="#intro" class ="c">Home</a>
     <a href="#about" class ="c">About</a>
+    <a href="#qualificationsTitle" class ="c">Qualifications</a>
     <a href="#portfolio" class ="c">Portfolio</a>
     <a href="#contact" class ="c">Contact</a>
   </span>
