@@ -41,7 +41,7 @@ $("#portfolio").css('background', 'hsl(' + backColor[i] + ', 25%, '+ (53) + '%)'
       b.css('background-color','#2A2428');
       a=0;
     }else if(a==0){
-      b.css('background-color','#C14953');
+      b.css('background-color','#d46007');
       a=1;
     }
     })
@@ -68,7 +68,7 @@ $(document).ready(function(){
                       //first thing the <body> load to display the 'Hallo!'
 function promptbox(){
 var z = $('#introMsg');
-z.css({"color":"#c14953"});
+z.css({"color":"#d46007"});
 z.hide().html("Hello!").fadeIn(2000)
 // ,function()
 // {
@@ -77,6 +77,7 @@ z.hide().html("Hello!").fadeIn(2000)
 //
 }
                      //Changing the backgound image in Contact section, pictures from pixabay
+/*
 var pixabay = "https://pixabay.com/api/?key=12040377-45b013ff230c3a769c85e1664&q=flowers&image_type=photo&pretty=true&per_page=150";
 
 
@@ -103,6 +104,7 @@ function(data){
   });
 }
 )
+*/
                //changing the affect on the Nav Button
 $(document).ready(function(){
   $("#navButton").mouseover(function(){
@@ -114,11 +116,32 @@ $(document).ready(function(){
       $(".c").css("display","none");
     })
     $(".c").hover(function(){
-      $(this).css("background", "rgba(0,0,0,.1)");}, function(){
+      $(this).css("background", "rgba(212,96,7,.5)");}, function(){
         $(this).css("background", "rgba(0,0,0,.5)");
       }
     )
 });
+                  //click link in about me
+$(function(){
+  $("#click").hover(function(){
+    $('#aboutTitle').css("font-weight", "bolder");},
+    function(){$('#aboutTitle').css("font-weight", "initial");})
+  })
+
+$(document).ready(function(){
+  if($('html').scrollTop() < 20){
+    $(".c").css("display","block");
+    $("#navb").css("display","none");
+  }
+  $(document).scroll(function(){
+    if($('html').scrollTop() > 20){
+    $(".c").css("display","none");
+    $("#navb").css("display","block");
+    }
+  })
+});
+
+
 
                 //Adding animate scroll to links
 $(document).ready(function(){
@@ -348,6 +371,7 @@ $("#testicon7").hover(function(){
 })
 
 });
+
 
 var timer = null;
 window.addEventListener('scroll', function() {

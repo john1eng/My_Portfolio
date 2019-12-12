@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>John Eng's Profolio</title>
 
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -16,11 +16,11 @@
   </head>
   <body onload=promptbox()>
                             <!--Heading-->
-    <section id="intro">
+    <section class="intro">
       <div id="intro-content">
-        <h1 id="introMsg" style="font-size:70px;font-style:italic"> &nbsp</h1><br>
+        <h2 id="introMsg" style="font-size:40px;font-style:italic"> &nbsp</h2><br>
         <h2 style="font-size:50px"> I'm John Eng! <h2>
-        <h2>| Full Stack Developer | Programmer |</h2><br><br>
+        <h3>| Full Stack Developer | Programmer |</h3><br><br><br><br><br>
         <a id="moreaboutme" href="#about" ><span>More About Me</span></a>
       </div>
     </section>
@@ -28,7 +28,7 @@
     <section id="about">
       <div>
         <br><br>
-        <div style="text-align:center"><h2> <span id="aboutTitle">About Me</span></h2><br><br></div>
+        <div style="text-align:center"><h2> <span id="aboutTitle" class="sectionTitle">About Me</span></h2><br><br></div>
         <div class="container-fluid">
           <div class="d-flex flex-row flex-wrap justify-content-center  ">
             <div class="p-2">
@@ -36,8 +36,7 @@
             </div>
 
             <div class="p-2">
-              <p id="aboutMeIntro"> Hello, My name is John Eng. I am passionate in coding because it's about solving problems, being creative, constantly learning and having fun <span id="italHover">(see what happens when the title in each page is clicked)</span>.
-                Currently, I am enrolled in 'TechWorks' at Queensborough Community College for a change career.  I always challenge myself to exceed the expectation for my projects. I need an opportunity where I can apply my talents and experience in website and software design and development.</p><br>
+              <p id="aboutMeIntro"> Hello, my name is John Eng.  I really enjoy developing and learning about websites and applications.  I live by challenges and standards of producing great works.  I am captured by works that are simple yet sophisticated that touch the core of the project vision and have thoughtful ideas behind them.  "...the secret of beautiful work lies to a great extent in truth and sincere sentiment." by Van Gogh, a quote I put into practice. I see myself as creative <span id='click'> (click the heading)</span>, hardworking and responsible person.  In addition, I enphasize the importance of these attributes: listen, respect and communicate.
             </div>
           </div>
         </div>
@@ -46,68 +45,42 @@
     <section id="experience">
       <div>
         <br><br>
-        <div style="text-align:center"><h2> <span id="qualificationsTitle">Qualifications</span></h2><br><br><br></div>
-        <div class="container-fluid">
-          <div class="d-flex flex-row justify-content-center ">
-            <div class="d-flex flex-column p-2 experiencediv justify-content-start">
-              <div class="p-2 qualificationsTitleSub">Skills
-              </div>
-              <div id="skillList" style="margin:auto">
-                <ul style="padding:0px">
-                  <li>API</li>
-                  <li>Android Studio</li>
-                  <li>BootStrap</li>
-                  <li>CSS (strong)</li>
-                  <li>DreamWeaver</li>
-                  <li>Github</li>
-                  <li>Google DevTool (strong)</li>
-                  <li>HTML (strong)</li>
-                  <li>Java</li>
-                  <li>JavaScript (strong)</li>
-                  <li>JQuery</li>
-                  <li>Microsoft Office</li>
-                  <li>PhotoShop</li>
-                  <li>Python</li>
-                  <li>React</li>
-                </ul>
-                <!--JavaScript, HTML, CSS, Bootstrap, Google DevTool, Github, API, Python, React, JQuery, Java, Microsoft App, DreamWeaver, Python-->
-              </div>
-            </div>
-          <div class="d-flex flex-column p-2 experiencediv justify-content-start">
-            <div class="p-2 qualificationsTitleSub">Education
-            </div>
-            <div class="p-2"><a id="defaultLink" target="_blank" href="http://www.qcc.cuny.edu/contEd/CUNY-TechWorks.html">CUNY TechWorks -<br>Software Development Program</a><br>(January 2019 - Current)<br>
+        <div style="text-align:center"><h2> <span id="qualificationsTitle" class="sectionTitle">Qualifications</span></h2><br></div>
+        <div class="container" style="background:#2A2428">
+          <div class="p-2 qualificationsTitleSub">Skills</div>
+            <p>Languages: <span class="tab">JavaScript, HTML 5, CSS3, Bootstrap, Java, Python </span></br>
+              Frameworks/IDE: <span class="tab">Atom, Dreamweaver, jQuery, Node.js, GitHub, Flask </span></br>
+              Microsoft Suite: <span class="tab">Excel, Words, PowerPoint</span></br>
+              Other Software/Tools: <span class="tab">Photoshop, Google DevTool, Android Studio, Wordpress</span></p>
+          <div class="p-2 qualificationsTitleSub">Experience</div>
+            <p><a id="defaultLink" target="_blank" href="http://www.brewasis.com"> BREWTOPIA (August 19 - Current)</a><br>
+                MANAGER + INTERN (PRIOR), BREWASIS, Brooklyn, New York<br>
+                ● Implement security practice to PostgreSQL and web application<br>
+                ● Manage two interns in exploring and executing SEO strategies for the company’s sites
+              </p>
+              <p> <span style="color:#d46007; font-weight:bold"> Google Hackathon (April 19-20 2019)</span><br>
+                Work with a team of seven to explore the Google AIY to help students with disability in College
+              </p>
+            <div class="p-2 qualificationsTitleSub">Education</div>
+          <p><a id="defaultLink" target="_blank" href="http://www.qcc.cuny.edu/contEd/CUNY-TechWorks.html">CUNY TechWorks - Software Development Program</a><br>(January 2019 - Current)<br>
             Have been taking these courses: Intro to Engineering and Technology, Web development, JavaScript, Application Development and C++<br>
-            </div>
-
-            <div class="p-2"><a id="defaultLink" target="_blank" href="https://revature.com/learn-to-code/">RevaturePro -<br>Online Development Programs</a><br>Gained knowledge and experiences in Java, Html/Css, Servlets
-            </div>
-
-            <div class="p-2"><a id="defaultLink" target="_blank" href="https://www.khanacademy.org/">Khan Academy - Online Courses</a><br>Completed the Intro to HTML/CSS: Making webspages
-            </div>
+          </p>
+          <p><a id="defaultLink" target="_blank" href="https://revature.com/learn-to-code/">RevaturePro - Online Development Programs</a><br>Gained knowledge and experiences in Java, Html/Css, Servlets</p>
+          <p><a id="defaultLink" target="_blank" href="https://www.khanacademy.org/">Khan Academy - Online Courses</a><br>Completed the Intro to HTML/CSS: Making webspages</p>
+          <br>
           </div>
-          <div class="d-flex flex-column p-2 experiencediv last justify-content-start">
-            <div class="p-2 qualificationsTitleSub">Experience
-            </div>
-            <!-- <div class="p-2"><a id="defaultLink" target="_blank" href="https://www.codenewbie.org/podcast">CodeNewbie Podcast</a><br>Listen to inspirational professional programmer interviews
-            </div> -->
-            <div class="p-2"><b style="color:#C14953">Brewasis</b><br>(August 19 - Current)<br>Intern to secure and implement the PostgreSQL database system<br><br>
-              <b style="color:#C14953">Google Hackathon</b><br>(April 19-20 2019)<br>Work with a team of seven to explore the Google AIY to help students with disability in College
-            <br><br><br><br>
-            <div class="p-2" style="text-align:center">
+          <br>
+          </div>
 
             <!-- <a id="resume" target="_blank" href="portfolios/John_Eng's-Resume.pdf"> My Resume </a> -->
-          </div>
-          </div>
-        </div>
-      </div>
+
     </section>
 
 
                             <!--Porfolio-->
     <section id="portfolio">
       <br><br>
-      <div style="text-align:center"><h2> <span id="scrollP">Portfolio</span></h2><br><br></div>
+      <div style="text-align:center"><h2> <span id="scrollP" class="sectionTitle">Portfolio</span></h2><br><br></div>
       <div class="container-fluid">
         <div class="d-flex flex-wrap flex-row justify-content-around">
           <div class="p-2" style="margin:auto"><a target="_blank" href="https://john1eng.github.io/restaurant_J/index.html"
@@ -194,14 +167,14 @@
                             <!--Contact-->
     <section id="contact">
         <br><br>
-        <div style="text-align:center"><h2><span id="spanContact">Contact Me</span></h2></div>
+        <div style="text-align:center"><h2><span id="spanContact" class="sectionTitle">Contact Me</span></h2></div>
         <br><br><br>
         <table>
             <td>
         <form action="https://formspree.io/john1eng@hotmail.com" method="POST">
-          <label>Name:</label><input type="text" id="contactName" name="name"><br>
-          <label>Email:</label><input type="email" id="contactEmail"name="email"><br>
-          <label>Message Board:</label><textarea cols="4" row="10" id="contactText" name="message"></textarea><br>
+          <input type="text" id="contactName" name="name" placeholder="Name"><br><br>
+          <input type="email" id="contactEmail"name="email" placeholder="Email"><br><br>
+          <textarea cols="4" row="10" id="contactText" name="message" placeholder="Message"></textarea><br>
           <button type ="submit" id="submitButton" type="button">Submit</button>
         </form>
           </td>
