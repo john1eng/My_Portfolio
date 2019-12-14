@@ -398,7 +398,7 @@ color:#D46007;
   font-weight:bolder;
 }
 #click:hover{
-  font-weight:bolder;
+  /* font-weight:bolder; */
   color:rgba(212, 96, 7);
 }
 
