@@ -50,10 +50,25 @@
         <div class="container" style="background:#2A2428">
           <div class="qualificationsTitleSub">Skills</div>
           <div class="p-2">
-            <p>Languages: <span class="tab">JavaScript, HTML 5, CSS3, Bootstrap, Java, Python </span></br>
-              Frameworks/IDE: <span class="tab">Atom, Dreamweaver, jQuery, Node.js, GitHub, Flask </span></br>
-              Microsoft Suite: <span class="tab">Excel, Words, PowerPoint</span></br>
-              Other Software/Tools: <span class="tab">Photoshop, Google DevTool, Android Studio, Wordpress</span></p>
+            <table id='skillTable'>
+              <tr>
+                <td width=40%;>Languages</td>
+                <td>JavaScript, HTML 5, CSS3, Bootstrap, Java, Python</td>
+              </tr>
+              <tr>
+                  <td width=40%;>Frameworks/IDE:</td>
+                  <td>Atom, Dreamweaver, jQuery, Node.js, GitHub, Flask</td>
+              </tr>
+              <tr>
+                  <td width=40%;>Microsoft Suite:</td>
+                  <td>Excel, Words, PowerPoint</td>
+              </tr>
+              <tr>
+                  <td width=40%;>Other Software/Tools:</td>
+                  <td>Photoshop, Google DevTool, Android Studio, Wordpress</td>
+              </tr>
+            </table>
+
           </div>
           <div class="qualificationsTitleSub">Experience</div>
             <div class="p-2">
@@ -176,7 +191,7 @@
         <br><br>
         <div style="text-align:center"><h2><span id="spanContact" class="sectionTitle">Contact Me</span></h2></div>
         <br><br><br>
-        <table>
+        <table id=formTable>
             <td>
         <form action="https://formspree.io/john1eng@hotmail.com" method="POST">
           <input type="text" id="contactName" name="name" placeholder="Name"><br><br>
