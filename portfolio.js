@@ -76,6 +76,18 @@ z.hide().html("Hello!").fadeIn(2000)
 // z.css("transform","scale(1) rotate(0deg) translate(0px, 0px) skew(0deg, 0deg)")
 //
 }
+var track = true;
+$().ready(()=>{
+  $("#spanContact").click(()=>{
+    if(track == true){
+    $("#contact").css({'background':'url("portfolios/Pictures/forest-floor-rural-explorer-oWS_3i0Y5sI-unsplash.jpg") center center / cover no-repeat fixed'})  
+    track = false;
+    }else{
+    $("#contact").css({'background':'url("portfolios/Pictures/green-and-black-tree-trunk.jpg") center center / cover no-repeat fixed'})  
+    track = true;
+   }
+  })
+})
                      //Changing the backgound image in Contact section, pictures from pixabay
 /*
 var pixabay = "https://pixabay.com/api/?key=12040377-45b013ff230c3a769c85e1664&q=flowers&image_type=photo&pretty=true&per_page=150";
