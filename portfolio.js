@@ -80,10 +80,10 @@ var track = true;
 $().ready(()=>{
   $("#spanContact").click(()=>{
     if(track == true){
-    $("#contact").css({'background':'url("portfolios/Pictures/forest-floor-rural-explorer-oWS_3i0Y5sI-unsplash.jpg") center center / cover no-repeat fixed'})  
+    $("#contact").css({'background':'url("portfolios/Pictures/forest-floor-rural-explorer-oWS_3i0Y5sI-unsplash.jpg") center center / cover no-repeat fixed'})
     track = false;
     }else{
-    $("#contact").css({'background':'url("portfolios/Pictures/green-and-black-tree-trunk.jpg") center center / cover no-repeat fixed'})  
+    $("#contact").css({'background':'url("portfolios/Pictures/green-and-black-tree-trunk.jpg") center center / cover no-repeat fixed'})
     track = true;
    }
   })
@@ -381,6 +381,17 @@ $("#testicon7").hover(function(){
 }, function(){
   $("#overlay7").css({'background':'rgba(0,0,0,0)','opacity':'1'});
 })
+//profestional site
+//W1
+$("#overlayW1").hover(function(){
+$('#overlayW1').css("background","rgba(0,0,0,.8)")
+$('#divW1 h4').html("Used Wordpress").css({"opacity":"1", "padding-top":"60px", "text-align":"center", "font-size":"2em"})
+
+}, function(){
+$('#overlayW1').css("background","rgba(0,0,0,0)")
+$('.overdiv h4').css("opacity","0")
+})
+
 
 });
 
