@@ -5,7 +5,7 @@ $(window).scroll(changeBackground);
 
 //change Background color when click on Portfolio title
 $(document).ready(function(){
-$("#scrollP").click(function(){
+$("#scrollP").mouseover(function(){
   console.log(i+"hello");
   if(i==4){
   i = 0;
@@ -52,7 +52,7 @@ $("#portfolio").css('background', 'hsl(' + backColor[i] + ', 25%, '+ (53) + '%)'
                       //Changing images in 'about me' section when click on the 'about me' title
 $(document).ready(function(){
   var b=0;
-  $("#aboutTitle").click(function(){
+  $("#aboutTitle").mouseover(function(){
     if(b==0){
     $("#aboutMePhoto").attr("src","portfolios/Pictures/profile2.jpg");
     b=1;
@@ -78,7 +78,7 @@ z.hide().html("Hello!").fadeIn(2000)
 }
 var track = true;
 $().ready(()=>{
-  $("#spanContact").click(()=>{
+  $("#spanContact").mouseover(()=>{
     if(track == true){
     $("#contact").css({'background':'url("portfolios/Pictures/forest-floor-rural-explorer-oWS_3i0Y5sI-unsplash.jpg") center center / cover no-repeat fixed'})
     track = false;
