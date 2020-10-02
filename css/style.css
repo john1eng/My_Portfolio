@@ -1,0 +1,424 @@
+html {
+  background-color: #2A2428;
+  margin: 0px; }
+
+body {
+  /* text-align:center; */
+  color: #E2E5EC;
+  margin-bottom: 0; }
+
+/* INTRO PICTURE */
+#intro {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../portfolios/Pictures/mist-forest.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+  /* width:100vw; */
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+#intro-content {
+  /* height:600px;
+      position:relative; */
+  /* min-height:100vh; */
+  /* display:table-cell; */
+  /* vertical-align:middle; */
+  text-align: center; }
+
+/* #introMsg{
+      -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(30deg, 0deg);
+      -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(30deg, 0deg);
+      -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(30deg, 0deg);
+      -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(30deg, 0deg);
+      transform: scale(1) rotate(0deg) translate(0px, 0px) skew(30deg, 0deg);
+    } */
+/* ABOUT ME SECTION */
+#about {
+  background-color: #2A2428;
+  height: 700px;
+  min-height: 100vh; }
+
+@media only screen and (max-width: 740px) {
+  #about {
+    height: 1020px; } }
+
+#aboutMePhoto {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  opacity: .6;
+  position: relative;
+  margin-right: 10px;
+  /* box-shadow:6px 6px 10px  hsl(105, 25%, 34%); */
+  border-radius: 10px; }
+
+#aboutMeIntro {
+  display: inline-block;
+  /* text-align:justify; */
+  width: 400px;
+  line-height: 2.3;
+  position: relative;
+  padding-left: 25px;
+  padding-right: 25px; }
+
+strong {
+  color: #d46007; }
+
+#italHover {
+  font-style: italic; }
+
+#italHover:hover {
+  background-color: #2C4026; }
+
+/* #2A2428 */
+/* ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    display: inline;
+    padding-right:10px;
+  } */
+/*Experience*/
+#experience {
+  background-color: #9E9E9E;
+  min-height: 100vh; }
+
+/* @media only screen and (max-width:820px){
+    #experience{
+      height:900px;
+    }
+  } */
+#skillTable td {
+  vertical-align: top; }
+
+.experiencediv {
+  border-right: 1px solid #2a2428;
+  width: 300px;
+  height: 500px; }
+
+.experiencediv.last {
+  border-right: none; }
+
+/* PORFOLIO */
+#portfolio {
+  background-color: #46653c;
+  padding-bottom: 100px; }
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 25px 25px 0px 0px;
+  -webkit-transition: background .5s ease-in-out;
+  transition: background .5s ease-in-out; }
+
+.overlay:hover {
+  background: rgba(0, 0, 0, 0.8); }
+
+.overlayW {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 25px 25px 25px 25px;
+  -webkit-transition: background .5s ease-in-out;
+  transition: background .5s ease-in-out; }
+
+.overlayW:hover {
+  background: rgba(0, 0, 0, 0.8); }
+
+.port-image {
+  width: 350px;
+  height: 194px;
+  background-size: cover;
+  position: relative;
+  /* left:85px; */
+  background-image: no-repeat center;
+  border-radius: 25px 25px 0px 0px;
+  display: table;
+  margin-bottom: 0px;
+  /* border: 1px solid #2c4026; */ }
+
+.row {
+  margin-bottom: 15px; }
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+  text-decoration: none;
+  color: #E2E5EC; }
+
+#defaultLink {
+  color: #d46007;
+  font-weight: bold; }
+
+#defaultLink:hover {
+  text-decoration: underline;
+  color: lightblue; }
+
+.overdiv {
+  width: 100%;
+  height: 100%; }
+
+h4 {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  color: #E2E5EC;
+  transition: opacity .5s ease-in-out; }
+
+h2:hover {
+  opacity: 1; }
+
+.morInfo {
+  /* margin-left: 84px; */
+  width: 350px;
+  height: 25px;
+  /* border: .5px solid #2c4026; */
+  border-radius: 0px 0px 25px 25px;
+  display: block;
+  background-color: #2c4026;
+  padding-left: 70px; }
+
+.morInfoSpan {
+  padding-right: 1px;
+  border-right: 1px solid black;
+  cursor: pointer;
+  padding-right: 70px; }
+
+/* CONTACT */
+#contact {
+  background: url(../portfolios/Pictures/green-and-black-tree-trunk.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-color: #2A2428;
+  background-size: cover;
+  /*  background-attachment: fixed;*/
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  /* width:100vw; */
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  /* width: 100%;
+    height: 100%; */
+  /* height: 700px; */ }
+
+#formTable {
+  border: 0px solid;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  border-collapse: separate;
+  background: rgba(255, 255, 255, 0.1); }
+
+form {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px; }
+
+::placeholder {
+  color: white; }
+
+label {
+  width: 80px;
+  text-align: left;
+  padding-left: 7px; }
+
+input {
+  width: 400px;
+  border: 2px black;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px; }
+
+#contactText {
+  height: 200px;
+  width: 400px;
+  border: 2px black;
+  border-radius: 10px;
+  padding-left: 9px;
+  vertical-align: top; }
+
+#submitButton {
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-left: 320px;
+  margin-top: 8px;
+  border: 0; }
+
+#submitButton:hover {
+  background: rgba(212, 96, 7, 0.5); }
+
+button, input, optgroup, select, textarea {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #E2E5EC;
+  border-radius: 5px; }
+
+/* FOOTER */
+#footer {
+  background-color: #2A2428;
+  margin: 0;
+  text-align: center; }
+
+/* NAV BUTTON */
+#navButton {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: rgba(44, 64, 38, 0.5);
+  border-radius: 5px; }
+
+#navb {
+  border: 0px;
+  font-size: 20px; }
+
+a.c, p.c {
+  display: none;
+  border: 1px solid black;
+  margin: 0px;
+  width: 130px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  font-size: 20px;
+  text-align: center; }
+
+/* SOCIAL MEDIA BUTTONS */
+.githubSpan {
+  padding-left: 60px; }
+
+.social-icons {
+  text-align: center; }
+
+.social-icons li {
+  display: inline-block;
+  list-style-type: none;
+  -webkit-user-select: none;
+  -moz-user-select: none; }
+
+.social-icons li a {
+  border-bottom: none; }
+
+.social-icons li img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px; }
+
+/***Color**/
+.sectionTitle {
+  color: #D46007; }
+
+/* TITLES THAT ACT LIKE A BUTTON EG. CONTACT, ABOUT, PORTFOLIO */
+#moreaboutme {
+  border: 2px solid #E2E5EC;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 9px; }
+
+#moreaboutme:hover {
+  border: 2px solid #d46007;
+  background: rgba(212, 96, 7, 0.5); }
+
+#resume {
+  border: 2px solid #E2E5EC;
+  border-radius: 9px;
+  padding: 5px;
+  text-align: center;
+  /* color: #d46007; */
+  font-weight: bold; }
+
+#resume:hover {
+  border: 2px solid #d46007; }
+
+/*portfolio*/
+#scrollP {
+  /* border:2px double #E2E5EC; */
+  /* border-radius:10px; */
+  padding: 7px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  text-align: center; }
+
+#scrollP:hover {
+  font-weight: bolder; }
+
+#aboutTitle {
+  /* border:2px double #E2E5EC; */
+  /* border-radius:10px; */
+  padding: 7px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  text-align: center; }
+
+#aboutTitle:hover {
+  font-weight: bolder; }
+
+#click:hover {
+  /* font-weight:bolder; */
+  color: rgba(212, 96, 7, 0); }
+
+#qualificationsTitle {
+  /* border:2px double #E2E5EC; */
+  /* border-radius:10px; */
+  padding: 7px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer; }
+
+#qualificationsTitle:hover {
+  font-weight: bolder; }
+
+.qualificationsTitleSub {
+  /* font-weight: bold; */
+  text-decoration: underline;
+  font-size: 25px;
+  font-style: italic; }
+
+#skillList li {
+  list-style: none;
+  background-color: #d46007;
+  font-weight: bold;
+  /* color: white; */
+  text-align: center;
+  padding: 0px 3px 0px; }
+
+#spanContact {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  appearance: button;
+  cursor: pointer; }
+
+#spanContact:hover {
+  font-weight: bolder; }
+
+#socialdiv {
+  background-color: #2A2428; }
+
+.row {
+  display: flex;
+  justify-content: center; }
+
+.tab {
+  position: absolute;
+  left: 250px; }
