@@ -72,7 +72,7 @@ body {
   padding-right: 25px; }
 
 strong {
-  color: #d46007; }
+  color: #D46007; }
 
 #italHover {
   font-style: italic; }
@@ -80,7 +80,7 @@ strong {
 #italHover:hover {
   background-color: #2C4026; }
 
-/* #2A2428 */
+/* $secondary-color */
 /* ul{
     list-style-type: none;
     margin: 0;
@@ -104,7 +104,7 @@ strong {
   vertical-align: top; }
 
 .experiencediv {
-  border-right: 1px solid #2a2428;
+  border-right: 1px solid #2A2428;
   width: 300px;
   height: 500px; }
 
@@ -159,8 +159,8 @@ a, a:link, a:visited, a:focus, a:hover, a:active {
   text-decoration: none;
   color: #E2E5EC; }
 
-#defaultLink {
-  color: #d46007;
+#defaultLink, #point {
+  color: #D46007;
   font-weight: bold; }
 
 #defaultLink:hover {
@@ -333,7 +333,7 @@ a.c, p.c {
   padding: 9px; }
 
 #moreaboutme:hover {
-  border: 2px solid #d46007;
+  border: 2px solid #D46007;
   background: rgba(212, 96, 7, 0.5); }
 
 #resume {
@@ -341,11 +341,11 @@ a.c, p.c {
   border-radius: 9px;
   padding: 5px;
   text-align: center;
-  /* color: #d46007; */
+  /* color: $primary-color; */
   font-weight: bold; }
 
 #resume:hover {
-  border: 2px solid #d46007; }
+  border: 2px solid #D46007; }
 
 /*portfolio*/
 #scrollP {
@@ -395,7 +395,7 @@ a.c, p.c {
 
 #skillList li {
   list-style: none;
-  background-color: #d46007;
+  background-color: #D46007;
   font-weight: bold;
   /* color: white; */
   text-align: center;
