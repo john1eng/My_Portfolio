@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/john1eng/My_Portfolio#readme",
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^7.0.0"
   }
 }
